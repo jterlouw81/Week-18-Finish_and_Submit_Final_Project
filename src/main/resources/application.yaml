@@ -1,0 +1,15 @@
+spring:
+   datasource:
+      username: art_valuation
+      password: art_valuation
+      url: jdbc:mysql://localhost:3306/art_valuation
+      
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
+      defer-datasource-initialization: true
+
+   sql:
+      init:
+         mode: never  
